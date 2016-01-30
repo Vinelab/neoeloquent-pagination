@@ -1,8 +1,8 @@
 <?php
 
-namespace Illuminate\Pagination;
+namespace Vinelab\NeoEloquent\Pagination;
 
-use Illuminate\Support\ServiceProvider;
+use Vinelab\NeoEloquent\Support\ServiceProvider;
 
 class PaginationServiceProvider extends ServiceProvider
 {

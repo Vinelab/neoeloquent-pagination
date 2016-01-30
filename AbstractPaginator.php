@@ -1,10 +1,10 @@
 <?php
 
-namespace Illuminate\Pagination;
+namespace Vinelab\NeoEloquent\Pagination;
 
 use Closure;
 use ArrayIterator;
-use Illuminate\Contracts\Support\Htmlable;
+use Vinelab\NeoEloquent\Contracts\Support\Htmlable;
 
 abstract class AbstractPaginator implements Htmlable
 {
