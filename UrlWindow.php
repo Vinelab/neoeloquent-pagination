@@ -1,6 +1,6 @@
-<?php namespace Illuminate\Pagination;
+<?php namespace Vinelab\NeoEloquent\Pagination;
 
-use Illuminate\Contracts\Pagination\LengthAwarePaginator as PaginatorContract;
+use Vinelab\NeoEloquent\Contracts\Pagination\LengthAwarePaginator as PaginatorContract;
 
 class UrlWindow {
 

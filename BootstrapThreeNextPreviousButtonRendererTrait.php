@@ -1,4 +1,4 @@
-<?php namespace Illuminate\Pagination;
+<?php namespace Vinelab\NeoEloquent\Pagination;
 
 trait BootstrapThreeNextPreviousButtonRendererTrait {
 

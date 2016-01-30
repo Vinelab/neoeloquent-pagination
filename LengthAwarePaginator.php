@@ -1,13 +1,13 @@
-<?php namespace Illuminate\Pagination;
+<?php namespace Vinelab\NeoEloquent\Pagination;
 
 use Countable;
 use ArrayAccess;
 use IteratorAggregate;
-use Illuminate\Support\Collection;
-use Illuminate\Contracts\Support\Jsonable;
-use Illuminate\Contracts\Support\Arrayable;
-use Illuminate\Contracts\Pagination\Presenter;
-use Illuminate\Contracts\Pagination\LengthAwarePaginator as LengthAwarePaginatorContract;
+use Vinelab\NeoEloquent\Support\Collection;
+use Vinelab\NeoEloquent\Contracts\Support\Jsonable;
+use Vinelab\NeoEloquent\Contracts\Support\Arrayable;
+use Vinelab\NeoEloquent\Contracts\Pagination\Presenter;
+use Vinelab\NeoEloquent\Contracts\Pagination\LengthAwarePaginator as LengthAwarePaginatorContract;
 
 class LengthAwarePaginator extends AbstractPaginator implements Arrayable, ArrayAccess, Countable, IteratorAggregate, Jsonable, LengthAwarePaginatorContract {
 
