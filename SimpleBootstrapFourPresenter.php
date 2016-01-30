@@ -1,16 +1,16 @@
 <?php
 
-namespace Illuminate\Pagination;
+namespace Vinelab\NeoEloquent\Pagination;
 
-use Illuminate\Support\HtmlString;
-use Illuminate\Contracts\Pagination\Paginator as PaginatorContract;
+use Vinelab\NeoEloquent\Support\HtmlString;
+use Vinelab\NeoEloquent\Contracts\Pagination\Paginator as PaginatorContract;
 
 class SimpleBootstrapFourPresenter extends BootstrapFourPresenter
 {
     /**
      * Create a simple Bootstrap 4 presenter.
      *
-     * @param  \Illuminate\Contracts\Pagination\Paginator  $paginator
+     * @param  \Vinelab\NeoEloquent\Contracts\Pagination\Paginator  $paginator
      * @return void
      */
     public function __construct(PaginatorContract $paginator)
@@ -31,7 +31,7 @@ class SimpleBootstrapFourPresenter extends BootstrapFourPresenter
     /**
      * Convert the URL window into Bootstrap HTML.
      *
-     * @return \Illuminate\Support\HtmlString
+     * @return \Vinelab\NeoEloquent\Support\HtmlString
      */
     public function render()
     {

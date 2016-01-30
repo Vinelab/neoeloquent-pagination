@@ -1,10 +1,10 @@
 <?php
 
-namespace Illuminate\Pagination;
+namespace Vinelab\NeoEloquent\Pagination;
 
-use Illuminate\Support\HtmlString;
-use Illuminate\Contracts\Pagination\Paginator as PaginatorContract;
-use Illuminate\Contracts\Pagination\Presenter as PresenterContract;
+use Vinelab\NeoEloquent\Support\HtmlString;
+use Vinelab\NeoEloquent\Contracts\Pagination\Paginator as PaginatorContract;
+use Vinelab\NeoEloquent\Contracts\Pagination\Presenter as PresenterContract;
 
 class BootstrapThreePresenter implements PresenterContract
 {
@@ -13,7 +13,7 @@ class BootstrapThreePresenter implements PresenterContract
     /**
      * The paginator implementation.
      *
-     * @var \Illuminate\Contracts\Pagination\Paginator
+     * @var \Vinelab\NeoEloquent\Contracts\Pagination\Paginator
      */
     protected $paginator;
 
@@ -27,8 +27,8 @@ class BootstrapThreePresenter implements PresenterContract
     /**
      * Create a new Bootstrap presenter instance.
      *
-     * @param  \Illuminate\Contracts\Pagination\Paginator  $paginator
-     * @param  \Illuminate\Pagination\UrlWindow|null  $window
+     * @param  \Vinelab\NeoEloquent\Contracts\Pagination\Paginator  $paginator
+     * @param  \Vinelab\NeoEloquent\Pagination\UrlWindow|null  $window
      * @return void
      */
     public function __construct(PaginatorContract $paginator, UrlWindow $window = null)
@@ -50,7 +50,7 @@ class BootstrapThreePresenter implements PresenterContract
     /**
      * Convert the URL window into Bootstrap HTML.
      *
-     * @return \Illuminate\Support\HtmlString
+     * @return \Vinelab\NeoEloquent\Support\HtmlString
      */
     public function render()
     {

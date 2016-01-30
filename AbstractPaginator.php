@@ -1,17 +1,17 @@
 <?php
 
-namespace Illuminate\Pagination;
+namespace Vinelab\NeoEloquent\Pagination;
 
 use Closure;
 use ArrayIterator;
-use Illuminate\Contracts\Support\Htmlable;
+use Vinelab\NeoEloquent\Contracts\Support\Htmlable;
 
 abstract class AbstractPaginator implements Htmlable
 {
     /**
      * All of the items being paginated.
      *
-     * @var \Illuminate\Support\Collection
+     * @var \Vinelab\NeoEloquent\Support\Collection
      */
     protected $items;
 
@@ -420,7 +420,7 @@ abstract class AbstractPaginator implements Htmlable
     /**
      * Get the paginator's underlying collection.
      *
-     * @return \Illuminate\Support\Collection
+     * @return \Vinelab\NeoEloquent\Support\Collection
      */
     public function getCollection()
     {
