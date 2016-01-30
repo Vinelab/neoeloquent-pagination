@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Pagination;
+namespace Vinelab\NeoEloquent\Pagination;
 
 trait UrlWindowPresenterTrait
 {

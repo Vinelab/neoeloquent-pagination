@@ -1,15 +1,15 @@
 <?php
 
-namespace Illuminate\Pagination;
+namespace Vinelab\NeoEloquent\Pagination;
 
 use Countable;
 use ArrayAccess;
 use IteratorAggregate;
-use Illuminate\Support\Collection;
-use Illuminate\Contracts\Support\Jsonable;
-use Illuminate\Contracts\Support\Arrayable;
-use Illuminate\Contracts\Pagination\Presenter;
-use Illuminate\Contracts\Pagination\Paginator as PaginatorContract;
+use Vinelab\NeoEloquent\Support\Collection;
+use Vinelab\NeoEloquent\Contracts\Support\Jsonable;
+use Vinelab\NeoEloquent\Contracts\Support\Arrayable;
+use Vinelab\NeoEloquent\Contracts\Pagination\Presenter;
+use Vinelab\NeoEloquent\Contracts\Pagination\Paginator as PaginatorContract;
 
 class Paginator extends AbstractPaginator implements Arrayable, ArrayAccess, Countable, IteratorAggregate, Jsonable, PaginatorContract
 {

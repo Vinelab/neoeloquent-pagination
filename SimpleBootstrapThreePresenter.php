@@ -1,8 +1,8 @@
 <?php
 
-namespace Illuminate\Pagination;
+namespace Vinelab\NeoEloquent\Pagination;
 
-use Illuminate\Contracts\Pagination\Paginator as PaginatorContract;
+use Vinelab\NeoEloquent\Contracts\Pagination\Paginator as PaginatorContract;
 
 class SimpleBootstrapThreePresenter extends BootstrapThreePresenter
 {

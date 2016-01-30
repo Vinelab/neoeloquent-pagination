@@ -1,29 +1,32 @@
 {
-    "name": "illuminate/pagination",
-    "description": "The Illuminate Pagination package.",
+    "name": "vinelab/neoeloquent-pagination",
+    "description": "Fork of the Illuminate Pagination package to be used with Vinelab/NeoEloquent.",
     "license": "MIT",
-    "homepage": "http://laravel.com",
+    "homepage": "https://github.com/vinelab/NeoEloquent",
     "support": {
-        "issues": "https://github.com/laravel/framework/issues",
-        "source": "https://github.com/laravel/framework"
+        "issues": "https://github.com/vinelab/NeoEloquent/issues",
+        "source": "https://github.com/vinelab/NeoEloquent"
     },
     "authors": [
         {
             "name": "Taylor Otwell",
             "email": "taylorotwell@gmail.com"
+        },
+        {
+            "name": "Abed Halawi",
+            "email": "abed.halawi@vinelab.com"
         }
     ],
     "require": {
-        "php": ">=5.5.9",
-        "illuminate/contracts": "5.1.*",
-        "illuminate/support": "5.1.*"
+        "php": ">=5.6.4",
+        "vinelab/neoeloquent-contracts": "5.1.*",
+        "vinelab/neoeloquent-support": "5.1.*"
     },
     "autoload": {
         "psr-4": {
-            "Illuminate\\Pagination\\": ""
+            "Vinelab\\NeoEloquent\\Pagination\\": ""
         }
     },
-    "extra": {
         "branch-alias": {
             "dev-master": "5.1-dev"
         }
